@@ -40,6 +40,6 @@ class Data:
       if os.path.isfile(f"{FolderLocation}/{FileName}"):
         f = open(f"{FolderLocation}/{FileName}", "rt").read()
         unloadf = json.loads(f)
-        return str(unloadf)
+        return unloadf
       else:
         print("File or Dictionary Variable Couldn't be Found")
