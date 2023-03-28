@@ -12,17 +12,17 @@ To install
 How to Import
 -
 
-    from economy import economy
+    from DataStore import Data
   
 Quick Example
 -
 
-    from economy import economy
+    from DataStore import Data
     economy.bal.start(foldername, filename,   {"Variable": 0})
 
     #To create just a file
     
-    from economy import economy
+    from DataStore import Data
     economy.bal.start(None, filename, {"Variable": 0})
 
 - If you have any issues: \
