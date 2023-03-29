@@ -12,13 +12,13 @@ To install
 How to Import
 -
 
-    from DataStore import Data
+    import Data
   
 Quick Example
 -
 
     # Import Package
-    from DataStore import Data
+    import Data
 
     # Create Folder and File with Data
     
@@ -27,6 +27,3 @@ Quick Example
 
 - If you have any issues: \
 https://github.com/ErrorThree/Python-Economy/issues
-
-- API Documentation: \
-Coming Soon
