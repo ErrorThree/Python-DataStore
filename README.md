@@ -1,13 +1,13 @@
-Python-Economy
+Python-Datastore
 =
 
 Require to have Python 3.7 \
-This python package is just to make save files easier.
+This allows to make DataStoring a Breeze.
 
 To install
 -
     # Windows
-    pip install pythoneconomy
+    Coming Soon
 
 How to Import
 -
@@ -17,13 +17,13 @@ How to Import
 Quick Example
 -
 
+    # Import Package
     from DataStore import Data
-    economy.bal.start(foldername, filename,   {"Variable": 0})
 
-    #To create just a file
+    # Create Folder and File with Data
     
-    from DataStore import Data
-    economy.bal.start(None, filename, {"Variable": 0})
+    Data.Folder("Test")
+    Data.DataStore.Data("Test", "E", {"Name":"E","Money":0})
 
 - If you have any issues: \
 https://github.com/ErrorThree/Python-Economy/issues
