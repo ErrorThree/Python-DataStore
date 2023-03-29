@@ -1,6 +1,7 @@
 import os
 import json
 
+
 # Create Folder
 def Folder(FolderName):
   # Convertion
@@ -12,6 +13,8 @@ def Folder(FolderName):
     # Create Folder
     FolderName = str(FolderName)
     os.mkdir(FolderName)
+
+
 # Extension
 class DataStore:
   # Create Data
@@ -58,4 +61,3 @@ class DataStore:
     else:
       # Print ErrorLog
       print("The File you are trying to change the Dictionary Doesn't Exist")
-
